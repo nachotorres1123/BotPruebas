@@ -16,7 +16,6 @@ def main():
         api_hash=API_HASH,
         use_context=True
     )
-
     dispatcher = updater.dispatcher
 
     # Agregar manejadores de comandos aquí
