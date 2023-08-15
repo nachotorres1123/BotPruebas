@@ -16,11 +16,14 @@ def hola(update: Update, context: CallbackContext) -> None:
 
 def main():
     updater = Updater(
-        bot_token=BOT_TOKEN,  # Cambio realizado aquí
+        token=BOT_TOKEN,  # Cambio realizado aquí
         api_id=API_ID,
         api_hash=API_HASH,
         use_context=True
     )
+
+    dispatcher = updater.dispatcher
+
 
     dispatcher = updater.dispatcher
 
