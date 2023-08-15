@@ -16,7 +16,7 @@ def hola(update: Update, context: CallbackContext) -> None:
 
 def main():
     updater = Updater(
-        token=BOT_TOKEN,  # Cambio realizado aquí
+        token=BOT_TOKEN,
         api_id=API_ID,
         api_hash=API_HASH,
         use_context=True
