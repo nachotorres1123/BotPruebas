@@ -1,5 +1,8 @@
+# bot.py
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
+
+# ... Tu código del bot aquí ...
 
 # Reemplaza con tus propias credenciales
 BOT_TOKEN = '6476747450:AAG00vg3M2eYmMxBzu7wETXpIkxa6IC378Q'
