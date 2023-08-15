@@ -1,8 +1,5 @@
-# bot.py
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
-
-# ... Tu código del bot aquí ...
 
 # Reemplaza con tus propias credenciales
 BOT_TOKEN = '6476747450:AAG00vg3M2eYmMxBzu7wETXpIkxa6IC378Q'
@@ -19,7 +16,7 @@ def hola(update: Update, context: CallbackContext) -> None:
 
 def main():
     updater = Updater(
-        token=BOT_TOKEN,
+        bot_token=BOT_TOKEN,  # Cambio realizado aquí
         api_id=API_ID,
         api_hash=API_HASH,
         use_context=True
